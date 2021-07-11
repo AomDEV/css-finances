@@ -1,15 +1,17 @@
 i.bank{
+    display: inline-block;
     border-radius:20%;
     background-color:grey;
-    display: inline-block;
+    vertical-align: middle;
     width: 14px;
     height: 14px;
     padding: 0.1em;
-    vertical-align: text-top;
     background-repeat: no-repeat;
     background-size: 75%;
     background-position: center;
     background-origin: content-box;
+    overflow:hidden;
+    vertical-align: -0.23em;
 }
 i.bank.round{
     border-radius: 50%;
