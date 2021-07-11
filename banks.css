@@ -1,0 +1,179 @@
+i.bank{
+    border-radius:20%;
+    background-color:grey;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    padding: 0.1em;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    background-origin: content-box;
+}
+i.bank.round{
+    border-radius: 50%;
+}
+i.bank.shadow{
+    box-shadow: 0px 0px 5px grey;
+}
+i.bank.huge{
+    width: 64px;
+    height: 64px;
+}
+h1>i.bank,i.bank.xxxl{
+    width: 32px;
+    height: 32px;
+}
+h2>i.bank,i.bank.xxl{
+    width: 22px;
+    height: 22px;
+}
+h3>i.bank,i.bank.xl{
+    width: 18px;
+    height: 18px;
+}
+h4>i.bank,i.bank.l{
+    width: 16px;
+    height: 16px;
+}
+h5>i.bank,i.bank.s{
+    width: 12px;
+    height: 12px;
+}
+h6>i.bank,i.bank.xs{
+    width: 10px;
+    height: 10px;
+}
+i.bank.bank-bbl{
+    background-color: #1e4598;
+    background-image: url('svg/bbl.svg');
+}
+i.bank.bank-kbank{
+    background-color: #138f2d;
+    background-image: url('svg/kbank.svg');
+}
+i.bank.bank-rbs{
+    background-color: #032952;
+    background-image: url('svg/rbs.svg');
+}
+i.bank.bank-ktb{
+    background-color: #1ba5e1;
+    background-image: url('svg/ktb.svg');
+}
+i.bank.bank-jpm{
+    background-color: #321c10;
+    background-image: url('svg/jpm.svg');
+}
+i.bank.bank-mufg{
+    background-color: #d61323;
+    background-image: url('svg/mufg.svg');
+}
+i.bank.bank-tmb{
+    background-color: #1279be;
+    background-image: url('svg/tmb.svg');
+}
+i.bank.bank-scb{
+    background-color: #4e2e7f;
+    background-image: url('svg/scb.svg');
+}
+i.bank.bank-citi{
+    background-color: #1583c7;
+    background-image: url('svg/citi.svg');
+}
+i.bank.bank-smbc{
+    background-color: #a0d235;
+    background-image: url('svg/smbc.svg');
+}
+i.bank.bank-sc{
+    background-color: #0f6ea1;
+    background-image: url('svg/sc.svg');
+}
+i.bank.bank-cimb{
+    background-color: #7e2f36;
+    background-image: url('svg/cimb.svg');
+}
+i.bank.bank-uob{
+    background-color: #0b3979;
+    background-image: url('svg/uob.svg');
+}
+i.bank.bank-uob{
+    background-color: #0b3979;
+    background-image: url('svg/uob.svg');
+}
+i.bank.bank-bay{
+    background-color: #fec43b;
+    background-image: url('svg/bay.svg');
+}
+i.bank.bank-mega{
+    background-color: #815e3b;
+    background-image: url('svg/mega.svg');
+}
+i.bank.bank-boa{
+    background-color: #e11e3c;
+    background-image: url('svg/boa.svg');
+}
+i.bank.bank-cacib{
+    background-color: #0e765b;
+    background-image: url('svg/cacib.svg');
+}
+i.bank.bank-gsb{
+    background-color: #eb198d;
+    background-image: url('svg/gsb.svg');
+}
+i.bank.bank-hsbc{
+    background-color: #fd0d1b;
+    background-image: url('svg/hsbc.svg');
+}
+i.bank.bank-db{
+    background-color: #0522a5;
+    background-image: url('svg/db.svg');
+}
+i.bank.bank-ghb{
+    background-color: #f57d23;
+    background-image: url('svg/ghb.svg');
+}
+i.bank.bank-baac{
+    background-color: #4b9b1d;
+    background-image: url('svg/baac.svg');
+}
+i.bank.bank-mb{
+    background-color: #150b78;
+    background-image: url('svg/mb.svg');
+}
+i.bank.bank-bnp{
+    background-color: #14925e;
+    background-image: url('svg/bnp.svg');
+}
+i.bank.bank-tbank{
+    background-color: #fc4f1f;
+    background-image: url('svg/tbank.svg');
+}
+i.bank.bank-ibank{
+    background-color: #184615;
+    background-image: url('svg/ibank.svg');
+}
+i.bank.bank-tisco{
+    background-color: #12549f;
+    background-image: url('svg/tisco.svg');
+}
+i.bank.bank-kk{
+    background-color: #199cc5;
+    background-image: url('svg/kk.svg');
+}
+i.bank.bank-icbc{
+    background-color: #c50f1c;
+    background-image: url('svg/icbc.svg');
+}
+i.bank.bank-tcrb{
+    background-color: #0a4ab3;
+    background-image: url('svg/tcrb.svg');
+}
+i.bank.bank-lhb{
+    background-color: #6d6e71;
+    background-image: url('svg/lhb.svg');
+}
+i.bank.bank-tmn{
+    background-color: #ecf0f1;
+    background-image: url('svg/tmn.svg');
+}
