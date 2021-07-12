@@ -31,6 +31,7 @@
     "icbc":  { "code": "070", "color": "#c50f1c", "official_name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (THAI) PUBLIC COMPANY LIMITED", "nice_name": "Industrial and Commercial Bank of China (Thai)" },
     "tcrb":  { "code": "071", "color": "#0a4ab3", "official_name": "THE THAI CREDIT RETAIL BANK PUBLIC COMPANY LIMITED", "nice_name": "Thai Credit Retail Bank" },
     "lhb":   { "code": "073", "color": "#6d6e71", "official_name": "LAND AND HOUSES BANK PUBLIC COMPANY LIMITED", "nice_name": "Land and Houses Bank" },
-    "tmn":   { "code": "074", "color": "#ecf0f1", "official_name": "TRUE MONEY WALLET", "nice_name": "TrueMoney Wallet" }
+    "tmn":   { "code": "074", "color": "#ecf0f1", "official_name": "TRUE MONEY WALLET", "nice_name": "TrueMoney Wallet" },
+    "pp":    { "code": "075", "color": "#00427a", "official_name": "PROMPTPAY", "nice_name": "PromptPay" }
   }
 }
