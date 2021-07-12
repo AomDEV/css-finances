@@ -179,3 +179,7 @@ i.bank.bank-tmn{
     background-color: #ecf0f1;
     background-image: url('svg/tmn.svg');
 }
+i.bank.bank-pp{
+    background-color: #00427a;
+    background-image: url('svg/pp.svg');
+}
