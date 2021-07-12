@@ -9,39 +9,40 @@ Usage:
 ```
 
 ## Bank List
-![Bank List](https://i.imgur.com/IYWoNFu.png)
-- **bbl** - Bangkok Bank
-- **kbank** - Kasikornbank
-- **rbs** - Royal Bank of Scotland
-- **ktb** - Krungthai Bank
-- **jpm** - J.P. Morgan
-- **mufg** - Bank of Tokyo-Mitsubishi UFJ
-- **tmb** - TMB Bank
-- **scb** - Siam Commercial Bank
-- **citi** - Citibank
-- **smbc** - Sumitomo Mitsui Banking Corporation
-- **sc** - Standard Chartered (Thai)
-- **cimb** - CIMB Thai Bank
-- **uob** - United Overseas Bank (Thai)
-- **bay** - Bank of Ayudhya (Krungsri)
-- **mega** - Mega International Commercial Bank
-- **boa** - Bank of America
-- **cacib** - Crédit Agricole
-- **gsb** - Government Savings Bank
-- **hsbc** - Hongkong and Shanghai Banking Corporation
-- **db** - Deutsche Bank
-- **ghb** - Government Housing Bank
-- **baac** - Bank for Agriculture and Agricultural Cooperatives
-- **mb** - Mizuho Bank
-- **bnp** - BNP Paribas
-- **tbank** - Thanachart Bank
-- **ibank** - Islamic Bank of Thailand
-- **tisco** - Tisco Bank
-- **kk** - Kiatnakin Bank
-- **icbc** - Industrial and Commercial Bank of China (Thai)
-- **tcrb** - Thai Credit Retail Bank
-- **lhb** - Land and Houses Bank
-- **tmn** - TrueMoney Wallet
+![Bank List](https://i.imgur.com/lZnWsLN.png)
+- **bank-bbl** - Bangkok Bank
+- **bank-kbank** - Kasikornbank
+- **bank-rbs** - Royal Bank of Scotland
+- **bank-ktb** - Krungthai Bank
+- **bank-jpm** - J.P. Morgan
+- **bank-mufg** - Bank of Tokyo-Mitsubishi UFJ
+- **bank-tmb** - TMB Bank
+- **bank-scb** - Siam Commercial Bank
+- **bank-citi** - Citibank
+- **bank-smbc** - Sumitomo Mitsui Banking Corporation
+- **bank-sc** - Standard Chartered (Thai)
+- **bank-cimb** - CIMB Thai Bank
+- **bank-uob** - United Overseas Bank (Thai)
+- **bank-bay** - Bank of Ayudhya (Krungsri)
+- **bank-mega** - Mega International Commercial Bank
+- **bank-boa** - Bank of America
+- **bank-cacib** - Crédit Agricole
+- **bank-gsb** - Government Savings Bank
+- **bank-hsbc** - Hongkong and Shanghai Banking Corporation
+- **bank-db** - Deutsche Bank
+- **bank-ghb** - Government Housing Bank
+- **bank-baac** - Bank for Agriculture and Agricultural Cooperatives
+- **bank-mb** - Mizuho Bank
+- **bank-bnp** - BNP Paribas
+- **bank-tbank** - Thanachart Bank
+- **bank-ibank** - Islamic Bank of Thailand
+- **bank-tisco** - Tisco Bank
+- **bank-kk** - Kiatnakin Bank
+- **bank-icbc** - Industrial and Commercial Bank of China (Thai)
+- **bank-tcrb** - Thai Credit Retail Bank
+- **bank-lhb** - Land and Houses Bank
+- **bank-tmn** - TrueMoney Wallet
+- **bank-pp** - PromptPay
 
 ### Example
 Basic Use:
