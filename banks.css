@@ -175,6 +175,10 @@ i.bank.bank-lhb{
     background-color: #6d6e71;
     background-image: url('svg/lhb.svg');
 }
+i.bank.bank-ttb{
+    background-color: #ecf0f1;
+    background-image: url('svg/ttb.svg');
+}
 i.bank.bank-tmn{
     background-color: #ecf0f1;
     background-image: url('svg/tmn.svg');

@@ -32,6 +32,7 @@
     "tcrb":  { "code": "071", "color": "#0a4ab3", "official_name": "THE THAI CREDIT RETAIL BANK PUBLIC COMPANY LIMITED", "nice_name": "Thai Credit Retail Bank" },
     "lhb":   { "code": "073", "color": "#6d6e71", "official_name": "LAND AND HOUSES BANK PUBLIC COMPANY LIMITED", "nice_name": "Land and Houses Bank" },
     "tmn":   { "code": "074", "color": "#ecf0f1", "official_name": "TRUE MONEY WALLET", "nice_name": "TrueMoney Wallet" },
-    "pp":    { "code": "075", "color": "#00427a", "official_name": "PROMPTPAY", "nice_name": "PromptPay" }
+    "pp":    { "code": "075", "color": "#00427a", "official_name": "PROMPTPAY", "nice_name": "PromptPay" },
+    "ttb":   { "code": "076", "color": "#ecf0f1", "official_name": "TMBTHANACHART BANK PUBLIC COMPANY LIMITED", "nice_name": "TMBThanachart Bankk" }
   }
 }
