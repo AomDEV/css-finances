@@ -52,6 +52,7 @@ h6>i.bank,i.bank.xs{
     width: 10px;
     height: 10px;
 }
+i.credit{ /**@AOM / https://github.com/AomDEV/css-finances **/ }
 i.bank.bank-bbl{
     background-color: #1e4598;
     background-image: url('svg/bbl.svg');
