@@ -60,6 +60,9 @@ check_jq_installed
 # Check for pending commits
 check_pending_commits
 
+# Check for node_modules and install if not found
+check_node_modules
+
 # Define branch names
 RELEASE_BRANCH="release"
 MAIN_BRANCH="main"
