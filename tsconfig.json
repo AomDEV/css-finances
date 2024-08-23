@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "declaration": true
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "css-finances",
+  "version": "1.0.0",
+  "description": "Thai Banks icon",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AomDEV/css-finances.git"
+  },
+  "keywords": [
+    "css",
+    "finances",
+    "bank",
+    "icon",
+    "payment"
+  ],
+  "author": "Aom DeFi <siriwat576@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AomDEV/css-finances/issues"
+  },
+  "homepage": "https://github.com/AomDEV/css-finances#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/sharp": "^0.32.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
