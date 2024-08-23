@@ -3,7 +3,7 @@ import * as dataJson from "./banks.json";
 import { readFile } from "fs/promises";
 import * as sharp from "sharp";
 
-export type Icon = keyof typeof dataJson.th;
+export type Icon = keyof typeof dataJson.th | (string & {});
 export type Dataset = Record<Icon, {
     readonly code: string;
     readonly color: string;
