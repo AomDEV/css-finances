@@ -1,6 +1,6 @@
 {
   "name": "css-finances",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Thai Banks icon",
   "main": "release/src/index.js",
   "scripts": {
