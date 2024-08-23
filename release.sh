@@ -47,11 +47,10 @@ set_new_version() {
 # Function to check if node_modules exists
 check_node_modules() {
     echo "Installing dependencies..."
-    if [ ! -d "node_modules" ]; then
-        yarn
-    else
+    if [ -d "node_modules" ]; then
         rm -rf node_modules/ dist/
     fi
+    yarn
 }
 
 # Run jq check
