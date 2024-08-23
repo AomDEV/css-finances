@@ -46,11 +46,11 @@ set_new_version() {
 
 # Function to check if node_modules exists
 check_node_modules() {
+    echo "Installing dependencies..."
     if [ ! -d "node_modules" ]; then
-        echo "Installing dependencies..."
         yarn
     else
-        echo "node_modules directory found."
+        rm -rf node_modules/ dist/
     fi
 }
 
@@ -59,9 +59,6 @@ check_jq_installed
 
 # Check for pending commits
 check_pending_commits
-
-# Check for node_modules and install if not found
-check_node_modules
 
 # Define branch names
 RELEASE_BRANCH="release"
@@ -94,14 +91,17 @@ git push origin $MAIN_BRANCH
 git checkout $RELEASE_BRANCH
 git merge $MAIN_BRANCH --no-ff -m "Merge branch '$MAIN_BRANCH' into '$RELEASE_BRANCH' - v$VERSION"
 
+# Check for node_modules and install if not found
+check_node_modules
+
 # Run the build process
 yarn build
 
 # Remove the 'src' folder
 rm -rf src
 
-# Move the 'dist' folder to the root directory
-mv dist/* .
+# Move the 'dist' folder to 'release' directory
+mv dist/* release/
 
 # Commit all changes with the version in the commit message
 git add .
