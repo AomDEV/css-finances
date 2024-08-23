@@ -97,7 +97,7 @@ check_node_modules
 yarn build
 
 # Remove the 'src' folder
-rm -rf src
+rm -rf src tsconfig.json
 
 # Check 'release' folder and remove folder
 if [ -d "release" ]; then
