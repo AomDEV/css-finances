@@ -73,8 +73,8 @@ else
   echo "Creating new branch '$RELEASE_BRANCH'."
   git checkout -b $RELEASE_BRANCH
   git push -u origin $RELEASE_BRANCH
-  git checkout $MAIN_BRANCH
 fi
+git checkout $MAIN_BRANCH
 
 # Set new version in package.json
 set_new_version
@@ -89,7 +89,7 @@ git push origin $MAIN_BRANCH
 
 # Merge the main branch into the release branch with the new version in the commit message
 git checkout $RELEASE_BRANCH
-git merge $MAIN_BRANCH --no-ff -m "Merge branch '$MAIN_BRANCH' into '$RELEASE_BRANCH' - v$VERSION"
+git merge $MAIN_BRANCH --strategy-option theirs --no-ff -m "Merge branch '$MAIN_BRANCH' into '$RELEASE_BRANCH' - v$VERSION"
 
 # Check for node_modules and install if not found
 check_node_modules
