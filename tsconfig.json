@@ -2,6 +2,7 @@
     "compilerOptions": {
         "resolveJsonModule": true,
         "sourceMap": true,
-        "declaration": true
+        "declaration": true,
+        "outDir": "dist"
     }
 }

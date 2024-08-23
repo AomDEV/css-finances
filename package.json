@@ -2,9 +2,9 @@
   "name": "css-finances",
   "version": "1.0.0",
   "description": "Thai Banks icon",
-  "main": "index.js",
+  "main": "release/src/index.js",
   "scripts": {
-    "postinstall": "tsc -p ."
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
