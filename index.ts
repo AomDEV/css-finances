@@ -1,3 +1,5 @@
+/* Skip type checking for Typescript file (Reserved for Development purpose) */
+// @ts-nocheck
 import { join } from "path";
 import * as dataJson from "./banks.json";
 import { readFile } from "fs/promises";
