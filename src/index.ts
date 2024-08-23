@@ -18,7 +18,7 @@ export class IconHelper {
     private constructor() { }
 
     public static getFilePath(icon: Icon) {
-        return join(__dirname, "svg", `${String(icon)}.svg`);
+        return join(__dirname, "..", "svg", `${String(icon)}.svg`);
     }
 
     public static getRawBuffer(icon: Icon) {
