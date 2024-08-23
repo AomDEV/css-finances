@@ -3,6 +3,7 @@
         "resolveJsonModule": true,
         "sourceMap": true,
         "declaration": true,
-        "outDir": "dist"
-    }
+        "outDir": "dist",
+    },
+    "include": ["./src/**/*"]
 }
