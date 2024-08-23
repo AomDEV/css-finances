@@ -36,13 +36,14 @@ export class IconHelper {
         readonly width?: number;
         readonly height?: number;
         readonly format?: keyof sharp.FormatEnum;
+        readonly buffer?: Buffer;
     }) {
         if (!this.hasIcon(icon)) return null;
 
         const width = Number(options?.width || 256)
         const height = Number(options?.height || 256)
 
-        const svgRawBuffer = await this.getRawBuffer(icon);
+        const svgRawBuffer = options.buffer ? options.buffer : await this.getRawBuffer(icon);
         const iconBuffer = await sharp(svgRawBuffer).resize(Number(width / 2)).toBuffer();
         const canvas = sharp({
             create: {
