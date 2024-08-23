@@ -73,6 +73,7 @@ else
   echo "Creating new branch '$RELEASE_BRANCH'."
   git checkout -b $RELEASE_BRANCH
   git push -u origin $RELEASE_BRANCH
+  git checkout $MAIN_BRANCH
 fi
 
 # Set new version in package.json
