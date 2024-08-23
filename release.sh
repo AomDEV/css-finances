@@ -28,6 +28,22 @@ check_pending_commits() {
     fi
 }
 
+# Function to set the new version in package.json
+set_new_version() {
+    echo "Enter the new version:"
+    read NEW_VERSION
+
+    # Validate the version format (simple regex for semver)
+    if [[ ! $NEW_VERSION =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+        echo "Invalid version format. Please use semantic versioning (e.g., 1.2.3)."
+        exit 1
+    fi
+
+    # Update the version in package.json
+    jq --arg new_version "$NEW_VERSION" '.version = $new_version' package.json > temp.json && mv temp.json package.json
+    echo "Updated version in package.json to $NEW_VERSION."
+}
+
 # Run jq check
 check_jq_installed
 
@@ -46,11 +62,12 @@ if git show-ref --verify --quiet refs/heads/$RELEASE_BRANCH; then
   echo "Branch '$RELEASE_BRANCH' already exists."
 else
   echo "Creating new branch '$RELEASE_BRANCH'."
-  git branch $RELEASE_BRANCH
+  git checkout -b $RELEASE_BRANCH
+  git push -u origin $RELEASE_BRANCH
 fi
 
-# Increase the minor version in package.json
-npm version minor
+# Set new version in package.json
+set_new_version
 
 # Get the new version number from package.json
 VERSION=$(jq -r '.version' package.json)
