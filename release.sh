@@ -44,6 +44,16 @@ set_new_version() {
     echo "Updated version in package.json to $NEW_VERSION."
 }
 
+# Function to check if node_modules exists
+check_node_modules() {
+    if [ ! -d "node_modules" ]; then
+        echo "Installing dependencies..."
+        yarn
+    else
+        echo "node_modules directory found."
+    fi
+}
+
 # Run jq check
 check_jq_installed
 
