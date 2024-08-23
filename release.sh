@@ -20,8 +20,19 @@ check_jq_installed() {
     fi
 }
 
+# Function to check for pending commits in the workspace
+check_pending_commits() {
+    if [[ -n $(git status --porcelain) ]]; then
+        echo "There are uncommitted changes in the workspace. Please commit or stash them before proceeding."
+        exit 1
+    fi
+}
+
 # Run jq check
 check_jq_installed
+
+# Check for pending commits
+check_pending_commits
 
 # Define branch names
 RELEASE_BRANCH="release"
