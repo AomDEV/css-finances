@@ -99,6 +99,14 @@ yarn build
 # Remove the 'src' folder
 rm -rf src
 
+# Check 'release' folder and remove folder
+if [ -d "release" ]; then
+    rm -rf release
+fi
+
+# Create directory
+mkdir release
+
 # Move the 'dist' folder to 'release' directory
 mv dist/* release/
 
