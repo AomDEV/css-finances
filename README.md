@@ -45,6 +45,7 @@ Usage:
 - **bank-icbc** - Industrial and Commercial Bank of China (Thai)
 - **bank-tcrb** - Thai Credit Retail Bank
 - **bank-lhb** - Land and Houses Bank
+- **bank-ttb** - TMBThanachart Bank
 - **bank-tmn** - TrueMoney Wallet
 - **bank-pp** - PromptPay
 - **bank-clicx** - CLICX
