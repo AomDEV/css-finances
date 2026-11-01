@@ -13,7 +13,7 @@ Usage:
 ```
 
 ## Bank List
-![Bank List](https://i.imgur.com/lZnWsLN.png)
+![Bank List](docs/bank-list.png)
 - **bank-bbl** - Bangkok Bank
 - **bank-kbank** - Kasikornbank
 - **bank-rbs** - Royal Bank of Scotland
