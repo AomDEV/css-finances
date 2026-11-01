@@ -47,6 +47,7 @@ Usage:
 - **bank-lhb** - Land and Houses Bank
 - **bank-tmn** - TrueMoney Wallet
 - **bank-pp** - PromptPay
+- **bank-clicx** - CLICX
 
 ### Example
 Basic Use:

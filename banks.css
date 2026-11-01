@@ -193,3 +193,7 @@ i.bank.bank-pp{
     background-color: #00427a;
     background-image: url('svg/pp.svg');
 }
+i.bank.bank-clicx{
+    background-color: #ecf0f1;
+    background-image: url('svg/clicx.svg');
+}
